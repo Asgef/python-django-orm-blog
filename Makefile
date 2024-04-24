@@ -21,7 +21,7 @@ migrate:
 
 .PHONY: shell
 shell:
-	@$(MANAGE) shell_plus --ipython
+	@$(MANAGE) shell_plus --bpython
 
 .PHONY: lint
 lint:
